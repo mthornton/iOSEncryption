@@ -33,5 +33,5 @@ if CommandLine.arguments.count == 5 {
 }
 else {
     
-    print("usage: encrypt <filename> <passphrase> <salt>")
+    print("usage: encrypt <filename> <newfilename> <passphrase> <salt>")
 }
