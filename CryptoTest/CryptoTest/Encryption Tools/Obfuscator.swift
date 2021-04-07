@@ -44,6 +44,7 @@ class Obfuscator {
         var encrypted = [UInt8]()
         
         for t in text.enumerated() {
+            print("t.element : \(t.element) -::- t.offset : \(t.offset)")
             encrypted.append(t.element ^ cipher[t.offset % length])
         }
         
